@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.ivt-img{
+    filter: invert(100%);
+}
+
+.main-font{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.side-font{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.kolom1{
+    float: left;
+    height: 600px;
+
+}
+
+.left1{
+    width: 75%;
+    background-image: url(newPicture.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.right1{
+    width: 25%;
+}
+
+.baris1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kolom1-2{
+    float: left;
+
+}
+
+.left1-2{
+    width: 33.33%;
+
+}
+
+.mid1-2{
+    width: 33.33%;
+
+}
+
+.right1-2{
+    width: 33.33%;
+
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  .cv-link
+{
+
+    padding: 17px;
+    font-size: 14px;
+    background: #eeeeee;
+    border-radius: 16px;
+    color: #11115e;
+}
+
+.baris1-2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.kolom-experience{
+    width: 50%;
+    float: left;
+}
+
+.baris-experience::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-kolom1, .skill-kolom2, .skill-kolom3, .skill-kolom4, .skill-kolom5, .skill-kolom6, .skill-kolom7, .skill-kolom-x{
+    float: left;
+}
+
+.skill-baris1::after, .skill-baris2::after, .skill-baris3::after, .skill-baris4::after, .skill-baris5::after, .skill-baris6::after, .skill-baris7::after, .skill-baris-x::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-left1, .skill-left2, .skill-left3, .skill-left4, .skill-left5, .skill-left6, .skill-left7, .skill-left-x{
+    width: 30%;
+}
+
+
+.skill-right1, .skill-right2, .skill-right3, .skill-right4, .skill-right5, .skill-right6, .skill-right7, .skill-right-x{
+    width: 70%;
+}
+
+.kolom1-hobby{
+    float: left;
+}
+.right1-hobby{
+    width: 50%;
+
+}
+.left1-hobby{
+    width: 50%;
+}
+
+.baris1-hobby::after, .baris2-hobby::after{
+    content: "";
+    display: table;
+    clear: both;
+}
